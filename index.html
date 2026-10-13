@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claudia van Wyk | Pharmacist & Career Mentor</title>
+  <meta name="description" content="Claudia van Wyk, pharmacist (B.Pharm, M.Sc.), helps pharmacy students, graduates and early-career pharmacists discover where a pharmacy degree can take them.">
+  <meta property="og:title" content="Claudia van Wyk | Pharmacist & Career Mentor">
+  <meta property="og:description" content="Discover where your pharmacy degree can take you. Free career chats, CV & LinkedIn reviews and more.">
+  <meta property="og:image" content="assets/coffee-table.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DM+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="#top">
+      <strong>Claudia van Wyk</strong>
+      <span>Pharmacist · B.Pharm, M.Sc.</span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu">Menu</button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#offers">Offers</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary btn-small" data-booking target="_blank" rel="noopener">Book a free chat</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">For pharmacy students, graduates &amp; early-career pharmacists</div>
+      <h1>Discover where your pharmacy degree can take you</h1>
+      <p class="lead">University teaches you pharmacy. I help you build your career: practical advice, honest answers and guidance from someone who's been there.</p>
+      <div class="actions">
+        <a class="btn btn-primary" data-booking target="_blank" rel="noopener">Book a free chat</a>
+        <a class="btn btn-outline" href="#offers">See my offers</a>
+      </div>
+      <img src="assets/coffee-table.png" alt="Illustration of books and a cup of coffee on a small table">
+    </div>
+  </section>
+
+  <section class="bg-cream">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Where your pharmacy degree can take you</h2>
+        <p>A pharmacy degree opens doors far beyond the dispensary.</p>
+      </div>
+      <ul class="paths">
+        <li><span class="chev">››</span>Community Pharmacy</li>
+        <li><span class="chev">››</span>Hospital Pharmacy</li>
+        <li><span class="chev">››</span>Pharmaceutical Industry</li>
+        <li><span class="chev">››</span>Clinical Research</li>
+        <li><span class="chev">››</span>Regulatory Affairs</li>
+        <li><span class="chev">››</span>Medical Affairs</li>
+        <li><span class="chev">››</span>Academia</li>
+        <li><span class="chev">››</span>…and many more</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="about-photo">
+        <img src="assets/claudia.jpg" alt="Claudia van Wyk smiling">
+      </div>
+      <div>
+        <h2>Hi, I'm Claudia</h2>
+        <div class="script">pharmacist &amp; career mentor</div>
+        <p>I'm a pharmacist with a passion for helping others discover the many career opportunities a pharmacy degree can unlock.</p>
+        <p>My career has taken me from community pharmacy to global health, pharmaceutical research, project leadership and international collaborations. Along the way, I've discovered that a pharmacy degree can lead to opportunities far beyond the dispensary.</p>
+        <ul class="journey">
+          <li>Community pharmacy</li>
+          <li>Global health</li>
+          <li>Pharmaceutical research</li>
+          <li>Project leadership</li>
+          <li>International collaborations</li>
+        </ul>
+        <p>That's why I share practical advice, answer your questions and help you navigate your career with confidence.</p>
+        <a class="btn btn-green" data-booking target="_blank" rel="noopener">Book a free chat</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="offers">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Offers</h2>
+        <p>Support for every stage, from your first career questions to your next big move.</p>
+      </div>
+      <div id="offers-list"></div>
+    </div>
+  </section>
+
+  <section class="soon-strip" id="soon-strip">
+    <div class="wrap">
+      <h2>Launching soon</h2>
+      <p class="sub">New ways to grow your career are on the way. Be the first to know when they launch.</p>
+      <div class="grid" id="soon-items"></div>
+      <div class="center" style="margin-top:34px"><a class="btn btn-primary" id="soon-notify">Notify me about all new offers</a></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap inner">
+      <div>
+        <h2>Ready to discover where your pharmacy degree can take you?</h2>
+        <span class="script">"I can't wait to meet you!"</span>
+        <p>Book your complimentary 30-minute online conversation, or email me with any questions.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn btn-primary" data-booking target="_blank" rel="noopener">Book a free chat</a>
+          <a class="btn btn-outline" data-email>Email me</a>
+        </div>
+      </div>
+      <img src="assets/laptop.png" alt="Illustration of a laptop and a cup of coffee" style="border-radius:24px">
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Claudia van Wyk · <a data-email></a></div>
+    <div class="socials" id="socials"></div>
+  </div>
+</footer>
+
+<script src="offers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

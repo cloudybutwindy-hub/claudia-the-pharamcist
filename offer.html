@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Offer | Claudia van Wyk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DM+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <strong>Claudia van Wyk</strong>
+      <span>Pharmacist · B.Pharm, M.Sc.</span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu">Menu</button>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#offers">Offers</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn btn-primary btn-small" data-booking target="_blank" rel="noopener">Book a free chat</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="detail-hero">
+    <div class="wrap">
+      <a class="back" href="index.html#offers">← All offers</a>
+      <h1 id="detail-title">Loading…</h1>
+      <p id="detail-summary"></p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap detail" id="detail"></div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Claudia van Wyk · <a data-email></a></div>
+    <div class="socials" id="socials"></div>
+  </div>
+</footer>
+
+<script src="offers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
