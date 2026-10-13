@@ -1,0 +1,31 @@
+Build a warm, professional personal website for Claudia van Wyk, a pharmacist (B.Pharm, M.Sc.) with experience in community pharmacy, global health, pharmaceutical research, project leadership and international collaborations. She helps pharmacy students, new graduates and early-career pharmacists discover where a pharmacy degree can take them, especially careers beyond the dispensary.
+
+Design: dark green (#1a5c45) and cream/off-white, friendly café feel, clean modern sans-serif headings, simple flat illustrations (coffee cups, books, laptop). Mobile-first. Site title: "Claudia van Wyk".
+
+PAGES
+1. Home – headline "Discover where your pharmacy degree can take you", short intro, photo placeholder, featured offers, button "Book a free chat", and a "Launching soon" teaser strip showing the coming-soon offers.
+2. About – bio and career journey: community pharmacy → global health → pharmaceutical research → project leadership and international collaborations.
+3. Offers – card grid grouped into sections (see below).
+4. Each live offer has its own detail page with description, what's included, who it's for, price and call-to-action button.
+5. Contact – email claudia.pharmacist@gmail.com and social links (placeholders).
+
+OFFER SETTINGS
+Store all offers in one easy-to-edit list. Each offer has: title, section, short description, who it's for, price, sale price (optional), button text, button link, and a STATUS field:
+- "live" = shown normally with its button
+- "coming soon" = shown as a teaser card with a "Launching soon" badge, slightly faded, a one-line teaser, and a "Notify me" button linking to a waitlist form (placeholder URL)
+- "hidden" = not shown anywhere on the site
+I must be able to change status, prices and links without redesigning anything.
+
+OFFERS
+Section: Start here
+- Coffee & Careers with Claudia – free 30-minute online career conversation (one per person). Button "Book a free chat" → https://calendly.com/claudia-pharmacist. STATUS: live
+- The Young Pharmacist's Guide – 20-section career guide for pharmacy students and early-career pharmacists. Price [R___]. Button "Buy now" → [checkout link]. STATUS: coming soon
+- Share your story – experienced pharmacists can contribute their career story to the guide. Button → https://forms.gle/psMKkJrPTiTPYbCA9. STATUS: live
+
+Section: CV & LinkedIn
+- CV & Cover Letter Review – translate your pharmacy experience for roles in industry, research, regulatory, NGOs and beyond. Price [R___]. STATUS: live
+- LinkedIn Profile Review – improve your visibility and position yourself for new opportunities. Price [R___]. STATUS: live
+- CV + LinkedIn Bundle – both services at a reduced price. Price [R___]. STATUS: live
+
+Section: One-on-one sessions
+-
